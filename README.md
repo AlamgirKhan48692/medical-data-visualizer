@@ -1,3 +1,6 @@
+Live Demo
+https://medical-data-visualizer-brmhrdgpuntyra2snp8hav.streamlit.app/
+
 # 🩺 Medical Data Visualizer
 
 This project performs **Exploratory Data Analysis (EDA)** and visualization on a medical examination dataset using Python. It includes data cleaning, transformation, and the creation of visualizations like a categorical plot and a heatmap.
