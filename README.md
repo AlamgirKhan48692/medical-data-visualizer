@@ -76,11 +76,6 @@ Your dataset should contain the following columns:
 
 ---
 
-## 🎥 Demo (GIF)
-
-<img src="screenshots/demo.gif" width="900">
-
----
 
 ## 📸 Screenshots
 
@@ -107,15 +102,15 @@ Your dataset should contain the following columns:
 
 📊 Example Insights
 ---
-High cholesterol strongly correlates with cardiovascular disease
-Overweight individuals show increased health risks
-Lifestyle habits (smoking, alcohol) impact heart health
+* High cholesterol strongly correlates with cardiovascular disease
+* Overweight individuals show increased health risks
+* Lifestyle habits (smoking, alcohol) impact heart health
 ***
 
 ⚠️ Disclaimer
 ---
-This project is for educational and visualization purposes only
-It is NOT a medical diagnosis tool
+* This project is for educational and visualization purposes only
+* It is NOT a medical diagnosis tool
 ***
 
 👨‍💻 Author
