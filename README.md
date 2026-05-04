@@ -102,7 +102,29 @@ Your dataset should contain the following columns:
 
 ### 📊 Categorical Plot
 <img src="Screenshots/catplot.png" width="800">
+***
 
+
+📊 Example Insights
 ---
+High cholesterol strongly correlates with cardiovascular disease
+Overweight individuals show increased health risks
+Lifestyle habits (smoking, alcohol) impact heart health
+***
+
+⚠️ Disclaimer
+---
+This project is for educational and visualization purposes only
+It is NOT a medical diagnosis tool
+***
+
+👨‍💻 Author
+---
+Alamgir Khan
+***
+
+📘 GitHub:
+---
+https://github.com/AlamgirKhan48692
 
 
