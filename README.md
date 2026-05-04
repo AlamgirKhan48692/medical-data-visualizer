@@ -97,7 +97,7 @@ Your dataset should contain the following columns:
 
 ### 📊 Categorical Plot
 <img src="Screenshots/catplot.png" width="800">
-***
+---
 
 
 📊 Example Insights
