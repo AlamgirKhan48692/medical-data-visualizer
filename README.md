@@ -109,22 +109,22 @@ Your dataset should contain the following columns:
 
 ```bash
 git clone https://github.com/AlamgirKhan48692/medical-data-visualizer.git
-
 cd medical-data-visualizer
-
 pip install -r requirements.txt
-
 streamlit run app.py
 ---
+
 📊 Example Insights
-* High cholesterol strongly correlates with cardiovascular disease
-* Overweight individuals show increased health risks
-* Lifestyle habits (smoking, alcohol) impact heart health
+High cholesterol strongly correlates with cardiovascular disease
+Overweight individuals show increased health risks
+Lifestyle habits (smoking, alcohol) impact heart health
 ---
+
 ⚠️ Disclaimer
-* This project is for educational and visualization purposes only
-* It is NOT a medical diagnosis tool
+This project is for educational and visualization purposes only
+It is NOT a medical diagnosis tool
 ---
+
 👨‍💻 Author
 
 Alamgir Khan
