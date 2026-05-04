@@ -84,10 +84,16 @@ Your dataset should contain the following columns:
 
 ## 📸 Screenshots
 
+### 📂 Upload Interface
+<img src="Screenshots/upload.png" width="800">
+
+---
+
 ### 📊 Dataset Preview
 <img src="Screenshots/dataset.png" width="800">
 
 ---
+
 
 ### 🔥 Correlation Heatmap
 <img src="Screenshots/heatmap.png" width="800">
@@ -96,11 +102,6 @@ Your dataset should contain the following columns:
 
 ### 📊 Categorical Plot
 <img src="Screenshots/catplot.png" width="800">
-
----
-
-### 📂 Upload Interface
-<img src="Screenshots/upload.png" width="800">
 
 ---
 
