@@ -1,61 +1,131 @@
-Live Demo
-https://medical-data-visualizer-brmhrdgpuntyra2snp8hav.streamlit.app/
-
 # 🩺 Medical Data Visualizer
 
-This project performs **Exploratory Data Analysis (EDA)** and visualization on a medical examination dataset using Python. It includes data cleaning, transformation, and the creation of visualizations like a categorical plot and a heatmap.
+A powerful and interactive **Streamlit web application** for analyzing medical examination data and visualizing important health indicators.
 
-> Part of the FreeCodeCamp Data Analysis with Python certification projects.
-
----
-
-## 📁 Repository Contents
-
-- `medical_data_visualizer.py`: Core script containing data cleaning and plotting logic.
-- `Medical_Data_Visualizerrr.py`: Likely an earlier or alternate version of the main script.
-- `main.py`: Script to execute the visualizer functions.
-- `medical_examination.csv`: The dataset containing health metrics of patients.
-- `catplot.png`: Output image showing categorical data comparisons.
-- `heatmap.png`: Output image showing correlation heatmap.
-- `__pycache__/`: Compiled Python cache files (auto-generated).
+🚀 **Live App:** (https://medical-data-visualizer-brmhrdgpuntyra2snp8hav.streamlit.app/)  
 
 ---
 
-## 📊 Visualizations
+## 📌 Overview
 
-### 1. Categorical Plot (`catplot.png`)
-- Compares variables such as cholesterol, glucose, smoking, alcohol intake, etc.
-- Shows count distribution grouped by cardiovascular disease presence.
+This project allows users to upload a medical dataset and explore relationships between different health features such as:
 
-### 2. Heatmap (`heatmap.png`)
-- Displays the correlation matrix of numerical features.
-- Highlights relationships between health metrics like BMI, blood pressure, and cholesterol.
+- Age, weight, height
+- Blood pressure (ap_hi, ap_lo)
+- Cholesterol & glucose levels
+- Lifestyle factors (smoking, alcohol, activity)
+- Cardiovascular disease (cardio)
+
+The app provides **visual insights** using correlation heatmaps and categorical plots.
 
 ---
 
-## ⚙️ Requirements
+## ✨ Features
 
-Make sure you have the following libraries installed:
+- 📂 Upload custom CSV dataset  
+- 🧹 Automatic data cleaning & preprocessing  
+- ⚖️ BMI calculation (Overweight detection)  
+- 🔄 Normalization of cholesterol & glucose  
+- 🔥 Correlation Heatmap  
+- 📊 Categorical Plot (Cardio vs Features)  
+- ⚡ Fast & interactive UI using Streamlit  
+
+---
+
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?logo=pandas)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-blue)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Graphs-orange)
+
+---
+
+## 📂 Dataset Format
+
+Your dataset should contain the following columns:
+
+| Column        | Description |
+|--------------|------------|
+| age          | Age (in days) |
+| height       | Height (cm) |
+| weight       | Weight (kg) |
+| gender       | 1 = female, 2 = male |
+| ap_hi        | Systolic blood pressure |
+| ap_lo        | Diastolic blood pressure |
+| cholesterol  | Cholesterol level |
+| gluc         | Glucose level |
+| smoke        | Smoking status |
+| alco         | Alcohol consumption |
+| active       | Physical activity |
+| cardio       | Cardiovascular disease (target) |
+
+---
+
+## ⚙️ How It Works
+
+1. Upload your dataset (CSV)  
+2. The app:
+   - Cleans the data  
+   - Calculates BMI → overweight  
+   - Normalizes cholesterol & glucose  
+3. Generates:
+   - 🔥 Correlation Heatmap  
+   - 📊 Categorical Plot  
+
+---
+
+## 🎥 Demo (GIF)
+
+<img src="screenshots/demo.gif" width="900">
+
+---
+
+## 📸 Screenshots
+
+### 📊 Dataset Preview
+<img src="Screenshots/dataset.png" width="800">
+
+---
+
+### 🔥 Correlation Heatmap
+<img src="Screenshots/heatmap.png" width="800">
+
+---
+
+### 📊 Categorical Plot
+<img src="Screenshots/catplot.png" width="800">
+
+---
+
+### 📂 Upload Interface
+<img src="Screenshots/upload.png" width="800">
+
+---
+
+## 📦 Installation
 
 ```bash
-pip install pandas seaborn matplotlib
+git clone https://github.com/AlamgirKhan48692/medical-data-visualizer.git
 
+cd medical-data-visualizer
 
-▶️ How to Run
+pip install -r requirements.txt
 
-Place the medical_examination.csv file in the same directory as your script.
+streamlit run app.py
+---
+📊 Example Insights
+* High cholesterol strongly correlates with cardiovascular disease
+* Overweight individuals show increased health risks
+* Lifestyle habits (smoking, alcohol) impact heart health
+---
+⚠️ Disclaimer
+* This project is for educational and visualization purposes only
+* It is NOT a medical diagnosis tool
+---
+👨‍💻 Author
 
-Run the main file:
+Alamgir Khan
 
-bash
-Copy
-Edit
-python main.py
-The script will:
-
-Clean and process the data.
-
-Generate catplot.png and heatmap.png as output.
-
-📬 Contact
-For feedback or contributions, feel free to fork the repo or open an issue.
+📘 GitHub: https://github.com/AlamgirKhan48692
